@@ -12,6 +12,24 @@ h2{
 }
 
 h3{
-    color: slategrey;
+    color: dimgray;
     font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+    color: dimgray;
+}
+li{
+    font-family: sans-serif;
+    color: dimgray;
+}
+
+a{
+    font-family: sans-serif;
+}
+
+div{
+    font-family: sans-serif;
+    color: dimgray;
 }
