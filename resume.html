@@ -4,10 +4,23 @@
        <meta charset="UTF-8">
        <title>Caitlin Washburn</title>
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" href="main.css">
+       <meta name="description" content="cwashburn9 resume page">
+       <meta name="keywords" content="cwashburn9, contact, web developement">
+       <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
     </head>
-    <body>
-      <main role="main">
+  <body>
+  <header>
+    <span class="logo">Caitlin Washburn</span>
+    <a id="toggleMenu">Menu<a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main>
       <h1>Caitlin Washburn</h1>
       <nav>
         <a href="index.html">Home</a> | <a href="resume.html">Resume</a> | <a href="contact.html">Contact</a>
@@ -71,6 +84,21 @@
       <p>I volunteer to help out with multiple events that the Chamber hosts throughout the year. My responsibilities have included event registrations, setup, and tear down. </p>
       <h3>Delta Delta Delta Sorority</h3>
       <p>Greek lettered organization, that participates in numerous philanthropic activities for fundraising and awareness campaigns for St Jude’s.</p>
-        </main>
-    </body>
-    </html>
+    </main>
+    <script>
+  
+      var toggleMenu = document.getElementById('toggleMenu');
+      var nav = document.querySelector('nav');
+      toggleMenu.addEventListener(
+        'click',
+        function(){
+          if(nav.style.display=='block'){
+            nav.style.display='none';
+          }else{
+            nav.style.display='block';
+          }
+        }
+      );
+    </script>
+    </body>>
+  </html>
