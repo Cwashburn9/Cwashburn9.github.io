@@ -117,8 +117,8 @@ header {
   background: white;
   border: 1px solid white;
   padding: 2em 0;
-  color: black;
-  text-align: center;
+  color: grey;
+  text-align: left;
 }
 
 /* Small devices - 1 column */
@@ -152,4 +152,17 @@ header {
     grid-column: 2;
     grid-row: 1;
   }
+}
+
+h1{
+color: lightseagreen;
+} 
+h2 {
+  color: lightseagreen;
+}
+h3 {
+  color: darkslategrey;
+}
+h4 {
+  color:lightseagreen;
 }
