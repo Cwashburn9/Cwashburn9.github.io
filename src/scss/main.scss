@@ -170,3 +170,13 @@ h3 {
 h4 {
   color:lightseagreen;
 }
+
+.resume img {
+  position: absolute; 
+  left: 0;
+  top: 0;
+  width: 80%;
+  height: 80%;
+  opacity: 0.2;
+  z-index: 40;
+}
