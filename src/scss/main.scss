@@ -6,6 +6,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-image: url(BackgroundBadge.png);
 }
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
@@ -117,7 +118,7 @@ header {
   background: white;
   border: 1px solid white;
   padding: 2em 0;
-  color: grey;
+  color: black;
   text-align: left;
   
 }
