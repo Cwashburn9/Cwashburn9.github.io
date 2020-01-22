@@ -1,35 +1,51 @@
- 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-       <meta charset="UTF-8">
-       <title>Caitlin Washburn</title>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-       <meta name="description" content="cwashburn9 welcome page">
-       <meta name="keywords" content="cwashburn9, welcome, resume, contact, about me, web developement">
-       <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
-       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Caitlin Washburn</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="cwashburn9 welcome page">
+  <meta name="keywords" content="cwashburn9, welcome, resume, contact, about me, web developement">
+  <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
   <header>
     <span class="logo">Caitlin Washburn</span>
     <a id="toggleMenu">Menu<a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
   </header>
   <main>
+    <div>
     <h1>Hi, I'm Caitlin.</h1>
     <h2>About Me</h2>
-    <img style="border-radius: 50%; float: right; margin-right: 1em;" src="https://s.gravatar.com/avatar/a7c28e70acc75b1a1ec7c73ab0396d60?s=80" alt="Caitlin">
-    <p>I graduated Milwaukee Institute of Art & Design, Majoring in Industrial Design and Minoring in Communicaition Design. After graduating I worked for General Motors for 3 years. After GM, I moved back to Illinois to pursue other career opportunities.</p>
+    <img style="border-radius: 50%; float: right; margin-right: 1em;"
+      src="https://s.gravatar.com/avatar/a7c28e70acc75b1a1ec7c73ab0396d60?s=80" alt="Caitlin">
+    <p>I graduated Milwaukee Institute of Art & Design, Majoring in Industrial Design and Minoring in Communicaition
+      Design. After graduating I worked for General Motors for 3 years. After GM, I moved back to Illinois to pursue
+      other career opportunities.</p>
+    </div>
+    <div>
+      <h3>Check out some of my Github projects</h3>
+      <ul>
+        <li>Draw Canvas</li>
+        <li>Game</li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
   </main>
   <script>
 
@@ -37,14 +53,15 @@
     var nav = document.querySelector('nav');
     toggleMenu.addEventListener(
       'click',
-      function(){
-        if(nav.style.display=='block'){
-          nav.style.display='none';
-        }else{
-          nav.style.display='block';
+      function () {
+        if (nav.style.display == 'block') {
+          nav.style.display = 'none';
+        } else {
+          nav.style.display = 'block';
         }
       }
     );
   </script>
-  </body>
+</body>
+
 </html>
